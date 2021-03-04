@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:paddingRight="16dp"
+        android:background="#fabdd1"
+        android:paddingLeft="16dp"
+        android:gravity="center"
+        android:src="@mipmap/taasir" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a1de57"
+        android:gravity="center"
+        android:id="@+id/linear">
+
+        <TextView
+            android:id="@+id/w1"
+            android:layout_width="wrap_content"
+
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:paddingLeft="30dp"
+            android:layout_height="30dp"
+            tools:text="Taasir" />
+
+        <TextView
+            android:id="@+id/w2"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:paddingLeft="30dp"
+            android:layout_below="@id/w1"
+            android:layout_height="30dp"
+
+            tools:text="Fruitwala" />
+
+        <ImageView
+            android:id="@+id/p"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingRight="20dp"
+
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
