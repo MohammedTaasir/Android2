@@ -30,12 +30,12 @@ public class Family extends AppCompatActivity {
         fam.add(new Word("x","x",R.drawable.lv,R.raw.three));
         fam.add(new Word("i","x",R.drawable.taasir,R.raw.four));
         fam.add(new Word("x","x x",R.drawable.nus,R.raw.five));
-        fam.add(new Word("x","x",R.drawable.kiss,R.raw.six));
-        fam.add(new Word("x","x",R.drawable.hot,R.raw.seve));
-        fam.add(new Word("x","x",R.drawable.vir,R.raw.eight));
-        fam.add(new Word("x","x",R.drawable.sx,R.raw.ninja));
-        fam.add(new Word("x","x",R.drawable.tog,R.raw.tanned));
-        fam.add(new Word("x","x",R.drawable.jaan,R.raw.tanned));
+        fam.add(new Word("x","x",R.drawable.x,R.raw.six));
+        fam.add(new Word("x","x",R.drawable.x,R.raw.seve));
+        fam.add(new Word("x","x",R.drawable.x,R.raw.eight));
+        fam.add(new Word("x","x",R.drawable.x,R.raw.ninja));
+        fam.add(new Word("x","x",R.drawable.x,R.raw.tanned));
+        fam.add(new Word("x","x",R.drawable.x,R.raw.tanned));
 
         WordAdapter w = new WordAdapter(this, fam,R.color.nusrat);
         ListView l = (ListView) findViewById(R.id.listf);
