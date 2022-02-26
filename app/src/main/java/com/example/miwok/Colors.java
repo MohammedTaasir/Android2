@@ -27,13 +27,13 @@ public class Colors extends AppCompatActivity {
         final ArrayList<Word> n = new ArrayList<Word>();
 
         n.add(new Word("taasir","fruitwala",R.drawable.color_red,R.raw.red));
-        n.add(new Word("My","Lady",R.drawable.color_dusty_yellow,R.raw.yell));
+        n.add(new Word("x","x",R.drawable.color_dusty_yellow,R.raw.yell));
         n.add(new Word("taasir","fruitwala",R.drawable.color_mustard_yellow,R.raw.yello));
-        n.add(new Word("My","Lady",R.drawable.color_gray,R.raw.gray));
+        n.add(new Word("x","x",R.drawable.color_gray,R.raw.gray));
         n.add(new Word("taasir","fruitwala",R.drawable.color_green,R.raw.green));
-        n.add(new Word("My","Lady",R.drawable.color_black,R.raw.black));
+        n.add(new Word("x","x",R.drawable.color_black,R.raw.black));
         n.add(new Word("taasir","fruitwala",R.drawable.color_brown,R.raw.brown));
-        n.add(new Word("My","Lady",R.drawable.color_white,R.raw.white));
+        n.add(new Word("x","x",R.drawable.color_white,R.raw.white));
 
 
 
