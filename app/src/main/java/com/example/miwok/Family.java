@@ -26,16 +26,16 @@ public class Family extends AppCompatActivity {
 
         final ArrayList<Word> fam = new ArrayList<Word>();
         fam.add(new Word("taasir","fruitwala",R.drawable.taasir,R.raw.one));
-        fam.add(new Word("My","Lady",R.drawable.nus,R.raw.twooo));
-        fam.add(new Word("both","met",R.drawable.lv,R.raw.three));
-        fam.add(new Word("i","initiated",R.drawable.taasir,R.raw.four));
-        fam.add(new Word("she","got impressed",R.drawable.nus,R.raw.five));
-        fam.add(new Word("both","kissed",R.drawable.kiss,R.raw.six));
-        fam.add(new Word("went","hotel",R.drawable.hot,R.raw.seve));
-        fam.add(new Word("lost","virginity",R.drawable.vir,R.raw.eight));
-        fam.add(new Word("intense","sex",R.drawable.sx,R.raw.ninja));
-        fam.add(new Word("taasir","fruitwala",R.drawable.tog,R.raw.tanned));
-        fam.add(new Word("MyLady","fruitwala",R.drawable.jaan,R.raw.tanned));
+        fam.add(new Word("My","x",R.drawable.nus,R.raw.twooo));
+        fam.add(new Word("x","x",R.drawable.lv,R.raw.three));
+        fam.add(new Word("i","x",R.drawable.taasir,R.raw.four));
+        fam.add(new Word("x","x x",R.drawable.nus,R.raw.five));
+        fam.add(new Word("x","x",R.drawable.kiss,R.raw.six));
+        fam.add(new Word("x","x",R.drawable.hot,R.raw.seve));
+        fam.add(new Word("x","x",R.drawable.vir,R.raw.eight));
+        fam.add(new Word("x","x",R.drawable.sx,R.raw.ninja));
+        fam.add(new Word("x","x",R.drawable.tog,R.raw.tanned));
+        fam.add(new Word("x","x",R.drawable.jaan,R.raw.tanned));
 
         WordAdapter w = new WordAdapter(this, fam,R.color.nusrat);
         ListView l = (ListView) findViewById(R.id.listf);
