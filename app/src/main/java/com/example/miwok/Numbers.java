@@ -62,11 +62,11 @@ public class Numbers extends AppCompatActivity {
         n.add(new Word("taasir","fruitwala",R.drawable.number_three,R.raw.taasir_n));
         n.add(new Word("taasir","fruitwala",R.drawable.number_four,R.raw.taasir_n));
         n.add(new Word("taasir","fruitwala",R.drawable.number_five,R.raw.taasir_n));
-        n.add(new Word("My","Lady",R.drawable.number_six,R.raw.my));
-        n.add(new Word("My","Lady",R.drawable.number_seven,R.raw.my));
-        n.add(new Word("My","Lady",R.drawable.number_eight,R.raw.my));
-        n.add(new Word("My","Lady",R.drawable.number_nine,R.raw.my));
-        n.add(new Word("My","Lady",R.drawable.number_ten,R.raw.my));
+        n.add(new Word("s","s",R.drawable.number_six,R.raw.my));
+        n.add(new Word("s","s",R.drawable.number_seven,R.raw.my));
+        n.add(new Word("s","s",R.drawable.number_eight,R.raw.my));
+        n.add(new Word("s","s",R.drawable.number_nine,R.raw.my));
+        n.add(new Word("s","s",R.drawable.number_ten,R.raw.my));
 
 
 
